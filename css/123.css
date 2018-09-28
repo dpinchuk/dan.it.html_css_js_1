@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+/* Decorations
+-------------------- */
+BODY {
+    padding: 20px;
+    background: white;
+
+}
+
+.flex-container {
+    counter-reset: flex-item-counter;
+    height: 180px;
+    padding: 10px;
+    background: gold;
+    border-radius: 10px;
+}
+
+.flex-item {
+    margin: 10px;
+    padding: 5px;
+    background: tomato;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+}
+
+.flex-item:before {
+    content: counter(flex-item-counter);
+    counter-increment: flex-item-counter;
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 5px auto;
+    text-align: center;
+    background: ivory;
+    border-radius: 50%;
+}
