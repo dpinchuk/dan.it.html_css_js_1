@@ -49,7 +49,7 @@
 }
 
 .main-header__contacts-items {
-    margin-right: 188px;
+    margin-right: 189px;
     padding-top: 7px;
     padding-bottom: 9px;
     display: inline-flex;
@@ -67,7 +67,8 @@
 .main-header__contacts-items-phone {
     display: flex;
     align-items: center;
-    margin-right: 11px;
+    margin-right: 17px;
+    padding-top: 3px;
 }
 
 .main-header__contacts-items-vertical-line {
@@ -80,6 +81,7 @@
     display: flex;
     align-items: center;
     margin-right: 12px;
+    padding-top: 3px;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
