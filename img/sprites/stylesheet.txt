@@ -4,110 +4,74 @@
     display: block;
 }
 
-.sprite-github {
-    width: 30px;
-    height: 30px;
+.sprite-icon-arrow {
+    width: 36px;
+    height: 37px;
     background-position: -5px -5px;
 }
 
-.sprite-gmail {
-    width: 30px;
-    height: 30px;
-    background-position: -45px -5px;
-}
-
-.sprite-icon-arrow {
-    width: 50px;
-    height: 50px;
-    background-position: -85px -5px;
-}
-
 .sprite-icon-fasebook {
-    width: 50px;
-    height: 50px;
-    background-position: -145px -5px;
+    width: 11px;
+    height: 22px;
+    background-position: -51px -5px;
 }
 
 .sprite-icon-fasebook-bg {
-    width: 50px;
-    height: 50px;
-    background-position: -205px -5px;
+    width: 26px;
+    height: 26px;
+    background-position: -72px -5px;
 }
 
 .sprite-icon-g-plus {
-    width: 50px;
-    height: 50px;
-    background-position: -5px -65px;
+    width: 20px;
+    height: 22px;
+    background-position: -108px -5px;
 }
 
 .sprite-icon-in {
-    width: 50px;
-    height: 50px;
-    background-position: -65px -65px;
+    width: 21px;
+    height: 19px;
+    background-position: -138px -5px;
 }
 
 .sprite-icon-logo {
-    width: 75px;
-    height: 75px;
-    background-position: -125px -65px;
+    width: 74px;
+    height: 49px;
+    background-position: -108px -37px;
 }
 
 .sprite-icon-mail {
-    width: 25px;
-    height: 25px;
-    background-position: -210px -65px;
+    width: 20px;
+    height: 16px;
+    background-position: -5px -96px;
 }
 
 .sprite-icon-management {
-    width: 100px;
-    height: 100px;
-    background-position: -5px -150px;
+    width: 84px;
+    height: 81px;
+    background-position: -35px -96px;
 }
 
 .sprite-icon-marketing {
-    width: 100px;
-    height: 100px;
-    background-position: -115px -150px;
+    width: 83px;
+    height: 79px;
+    background-position: -192px -5px;
 }
 
 .sprite-icon-pages {
-    width: 100px;
-    height: 100px;
-    background-position: -265px -5px;
+    width: 67px;
+    height: 79px;
+    background-position: -192px -94px;
 }
 
 .sprite-icon-phone {
-    width: 25px;
-    height: 25px;
-    background-position: -210px -115px;
+    width: 11px;
+    height: 17px;
+    background-position: -169px -5px;
 }
 
 .sprite-icon-twitter {
-    width: 50px;
-    height: 50px;
-    background-position: -245px -115px;
-}
-
-.sprite-linkedin {
-    width: 30px;
-    height: 30px;
-    background-position: -305px -115px;
-}
-
-.sprite-stackoverflow {
-    width: 30px;
-    height: 30px;
-    background-position: -345px -115px;
-}
-
-.sprite-tumblr {
-    width: 30px;
-    height: 30px;
-    background-position: -305px -155px;
-}
-
-.sprite-twitter {
-    width: 30px;
-    height: 30px;
-    background-position: -345px -155px;
+    width: 21px;
+    height: 19px;
+    background-position: -129px -183px;
 }
