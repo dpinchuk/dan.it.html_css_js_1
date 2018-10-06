@@ -23,7 +23,6 @@
 }
 
 .btn {
-    display: inline-block;
     border-radius: 4px;
 }
 
@@ -33,23 +32,26 @@
 
 .container {
     width: 1021px;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 
 /*Header contacts*/
 /*--------------------------------------------------------------------------------------------------------------------*/
+.main-header {
+}
+
 .main-header__contacts {
+    margin: 0 auto;
     width: 1400px;
-    /*margin: 0 auto;*/
     background-color: #f0f2f4;
     box-shadow: 0 1px 0 0 #e2e2e2;
     text-align: right;
 }
 
 .main-header__contacts-items {
-    margin-right: 189px;
+    /*margin-right: 189px;*/
     padding-top: 7px;
     padding-bottom: 9px;
     display: inline-flex;
@@ -88,6 +90,64 @@
 
 /*Header Navbar*/
 /*--------------------------------------------------------------------------------------------------------------------*/
+.main-header__navbar {
+    text-align: right;
+}
+
+.main-header__navbar-menu {
+    display: inline-block;
+    margin-right: 32px;
+    list-style-position: outside;
+    list-style-type: disc;
+}
+
+.main-header__navbar-menu:first-child {
+    list-style-type: none;
+}
+
+.main-header__navbar-menu__option {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.main-header__navbar-menu__option:last-child {
+    padding-right: 0;
+}
+
+.main-header__navbar-menu__option-link {
+    text-decoration: none;
+    font-family: HelveticaNeue, serif;
+    color: #424242;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.main-header__navbar-menu__option-link:hover,
+.main-header__navbar-menu__option-link:focus {
+    color: #de2b24;
+}
+
+.main-header__navbar-btn__red-btn {
+    display: inline-block;
+}
+
+.main-header__navbar-btn__red-btn-link {
+    background-color: #de2b24;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: HelveticaNeue, serif;
+    letter-spacing: 2px;
+}
+
+.main-header__navbar-btn__red-btn-link:hover {
+    background-color: #fa6e66;
+    transition: .5s;
+}
+
+
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -179,5 +239,10 @@
 @font-face {
     font-family: Helvetica;
     src: url(../fonts/Helvetica.otf);
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeue.ttf);
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
