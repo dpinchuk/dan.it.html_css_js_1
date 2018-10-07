@@ -312,7 +312,7 @@
 .section-our-work__features {
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     text-align: -webkit-center;
 }
 
@@ -346,6 +346,91 @@
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Section 'section-newsletter'*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.section-newsletter {
+    padding-top: 90px;
+    padding-bottom: 84px;
+    background-color: #2a2a2a;
+    text-align: center;
+}
+
+.section-newsletter__container {
+    width: 683px;
+    margin: 0 auto;
+}
+
+.section-newsletter__header {
+    font-family: HelveticaNeue, sans-serif;
+    color:  #ffffff;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.section-newsletter__social {
+    display: inline-block;
+    margin-bottom: 36px;
+}
+
+.section-newsletter__description {
+    font-family: OpenSans, sans-serif;
+    color: #cecece;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 31px;
+}
+
+.section-newsletter__form {
+}
+
+.section-newsletter__form-email {
+    border-radius: 1px;
+    background-color: #515151;
+    width: 683px;
+    padding-left: 22px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    border: none;
+    margin-bottom: 27px;
+}
+
+.section-newsletter__form-button {
+    background-color: #2a2a2a;
+    padding: 15px 25px;
+    border-radius: 1px;
+    border: 2px solid #515151;
+    background-color:  rgba(243, 243, 243, 0);
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.section-newsletter__form-button:hover {
+
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Section 'section-newsletter'*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.main-footer {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background-color: #515151;
+}
+
+.main-footer__header {
+    text-align: center;
+    font-family: OpenSans, sans-serif;
+    color: #cecece;
+    font-size: 14px;
+    font-weight: 400;
 }
 /*--------------------------------------------------------------------------------------------------------------------*/
 
