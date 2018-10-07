@@ -63,7 +63,7 @@
 }
 
 .main-header__contacts {
-    margin: 0 auto 42px;
+    margin: 0 auto 59px;
     width: 1400px;
     background-color: #f0f2f4;
     box-shadow: 0 1px 0 0 #e2e2e2;
@@ -110,30 +110,36 @@
 /*Header Navbar*/
 /*--------------------------------------------------------------------------------------------------------------------*/
 .main-header__navbar {
-    display: inline-flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
+    text-align: right;
 }
 
 .main-header__navbar-logo {
+    position: absolute;
     font-family: Helvetica, sans-serif;
-    margin-right: 295px;
+    bottom: -100%;
 }
 
 .main-header__navbar-logo-header {
+    display: inline-block;
     color: #424242;
     font-size: 37px;
     font-weight: 700;
-    float: right;
+    padding-left: 10px;
 }
 
 .main-header__navbar-logo-description {
+    display: flex;
     color: #424242;
     font-size: 15px;
     font-weight: 400;
+    padding-left: 10px;
 }
 
 .main-header__navbar-elements__menu {
+    display: inline-block;
     margin-right: 32px;
     list-style: disc outside;
 }
