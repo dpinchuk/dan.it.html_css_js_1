@@ -193,34 +193,38 @@
     background-image: url(../img/section-banner/bg-section-banner.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 176px;
-    padding-bottom: 236px;
-    font-family: Helvetica, sans-serif;
+    padding-top: 169px;
+    padding-bottom: 261px;
     margin-bottom: 102px;
 }
 
 .section-banner__header {
+    font-family: Helvetica, sans-serif;
     color: #ffffff;
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 47px;
+    font-weight: 900;
     margin-bottom: 8px;
+    letter-spacing: 2px;
 }
 
 .section-banner__description {
     font-family: HelveticaNeue, sans-serif;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 29px;
     font-weight: 300;
-    margin-bottom: 52px;
+    margin-bottom: 57px;
+    letter-spacing: 1px;
 }
 
 .section-banner__btn {
+    font-family: Helvetica, sans-serif;
     text-decoration: none;
     background-color: #f8cd53;
-    padding: 20px 40px;
+    padding: 21px 40px;
     color: #ffffff;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 700;
+    letter-spacing: 2px;
 }
 
 .section-banner__btn:hover {
