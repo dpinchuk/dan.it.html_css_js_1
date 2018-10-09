@@ -38,8 +38,9 @@
 .section-header {
     font-family: Helvetica, sans-serif;
     font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 8px;
+    font-weight: 900;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
 }
 
 .section-description {
@@ -59,7 +60,7 @@
 /*Header contacts*/
 /*--------------------------------------------------------------------------------------------------------------------*/
 .main-header {
-    margin-bottom: 38px;
+    margin-bottom: 55px;
 }
 
 .main-header__contacts {
@@ -150,7 +151,7 @@
 
 .main-header__navbar-elements__menu-option {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 40px;
 }
 
 .main-header__navbar-elements__menu-option:last-child {
@@ -177,7 +178,7 @@
 .main-header__navbar-elements__btn-red-link {
     background-color: #de2b24;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: #ffffff;
     font-size: 15px;
     font-weight: 700;
@@ -201,7 +202,7 @@
     background-position: center;
     padding-top: 169px;
     padding-bottom: 261px;
-    margin-bottom: 102px;
+    margin-bottom: 97px;
 }
 
 .section-banner__header {
